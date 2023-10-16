@@ -24,6 +24,10 @@ public class Calciatore extends Persona {
     }
 
     public String toString(){
-        return super.toString() + "\b,ruolo:\"" + ruolo + "\",numeroMaglia:" + numeroMaglia + ",numeroGoal:" + numeroGoal + "}";
+        return "{" + this.toStringInner() + "}";
+    }
+
+    public String toStringInner(){
+        return super.toStringInner() + ",ruolo:\"" + ruolo + "\",numeroMaglia:" + numeroMaglia + ",numeroGoal:" + numeroGoal;
     }
 }

@@ -42,6 +42,10 @@ public class Persona {
     }
 
     public String toString(){
-        return "{nome:\"" + this.nome + "\",sesso:\"" + this.sesso + "\",compleanno:\"" + this.compleanno + "\"}";
+        return "{" + this.toStringInner() +"}";
+    }
+
+    public String toStringInner(){
+        return "nome:\"" + this.nome + "\",sesso:\"" + this.sesso + "\",compleanno:\"" + this.compleanno + "\"";
     }
 }
