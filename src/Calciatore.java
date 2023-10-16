@@ -24,6 +24,13 @@ public class Calciatore extends Persona {
         this.numeroMaglia=numeroMaglia;
     }
 
+    public Calciatore(Calciatore calciatore){
+        super(calciatore);
+        this.ruolo= calciatore.ruolo;
+        this.numeroGoal=calciatore.numeroGoal;
+        this.numeroMaglia=calciatore.numeroMaglia;
+    }
+
     public String getRuolo() {
         return ruolo;
     }
@@ -46,6 +53,10 @@ public class Calciatore extends Persona {
 
     public void setNumeroGoal(int numeroGoal) {
         this.numeroGoal = numeroGoal;
+    }
+
+    public Object clone(){
+       return new Calciatore(this);
     }
 
     public String toString(){
