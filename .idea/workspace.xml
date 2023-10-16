@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1d65462-09d0-4b27-b399-eda77ac933c0" name="Changes" comment="feat: metodi base">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e1d65462-09d0-4b27-b399-eda77ac933c0" name="Changes" comment="feat: fix metodi base">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Persona.java" afterDir="false" />
     </list>
@@ -66,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697437497730</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: fix metodi base">
+      <created>1697438228893</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697438228893</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,6 +90,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="feat class Persona" />
     <MESSAGE value="feat: metodi base" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: metodi base" />
+    <MESSAGE value="feat: fix metodi base" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: fix metodi base" />
   </component>
 </project>
