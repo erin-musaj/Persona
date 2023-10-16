@@ -6,6 +6,8 @@ public class Main {
             Persona p2 = (Persona) p1.clone();
             p2.setNome("Driver");
             System.out.println(p2.toString());
+            Calciatore c1 = new Calciatore(p1, "Attaccante", 16, 3);
+            System.out.println(c1.toString());
         } catch (Exception e){
             System.out.println(e.getMessage());
         }

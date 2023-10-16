@@ -7,8 +7,8 @@ public class Persona {
 
     public Persona(String nome, String sesso, int anno, int mese, int giorno) throws Exception {
         this.nome = nome;
-        if(nome.equalsIgnoreCase("maschio") || nome.equalsIgnoreCase("femmina")){
-            this.nome = nome;
+        if(sesso.equalsIgnoreCase("maschio") || sesso.equalsIgnoreCase("femmina")){
+            this.sesso = sesso;
         } else {
             throw new Exception("sesso not valid");
         }
