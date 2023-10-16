@@ -12,4 +12,14 @@ public class Calciatore extends Persona {
         this.numeroGoal=numeroGoal;
         this.numeroMaglia=numeroMaglia;
     }
+
+    public Calciatore(
+            Calciatore calciatore,
+            String ruolo, int numeroMaglia, int numeroGoal
+    ) throws Exception {
+        super(calciatore);
+        this.ruolo=ruolo;
+        this.numeroGoal=numeroGoal;
+        this.numeroMaglia=numeroMaglia;
+    }
 }
