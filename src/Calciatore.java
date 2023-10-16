@@ -1,4 +1,5 @@
 public class Calciatore extends Persona {
+
     private String ruolo;
     private int numeroMaglia;
     private int numeroGoal;
@@ -21,6 +22,30 @@ public class Calciatore extends Persona {
         this.ruolo=ruolo;
         this.numeroGoal=numeroGoal;
         this.numeroMaglia=numeroMaglia;
+    }
+
+    public String getRuolo() {
+        return ruolo;
+    }
+
+    public void setRuolo(String ruolo) {
+        this.ruolo = ruolo;
+    }
+
+    public int getNumeroMaglia() {
+        return numeroMaglia;
+    }
+
+    public void setNumeroMaglia(int numeroMaglia) {
+        this.numeroMaglia = numeroMaglia;
+    }
+
+    public int getNumeroGoal() {
+        return numeroGoal;
+    }
+
+    public void setNumeroGoal(int numeroGoal) {
+        this.numeroGoal = numeroGoal;
     }
 
     public String toString(){
