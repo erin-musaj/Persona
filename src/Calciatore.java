@@ -5,10 +5,10 @@ public class Calciatore extends Persona {
     private int numeroGoal;
 
     public Calciatore(
-            String nome, String sesso, int anno, int mese, int giorno,
+            String nome, String sesso, int numeroScarpe, int anno, int mese, int giorno,
             String ruolo, int numeroMaglia, int numeroGoal
     ) throws Exception {
-        super(nome, sesso, anno, mese, giorno);
+        super(nome, sesso, numeroScarpe, anno, mese, giorno);
         this.ruolo=ruolo;
         this.numeroGoal=numeroGoal;
         this.numeroMaglia=numeroMaglia;
